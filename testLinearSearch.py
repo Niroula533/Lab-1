@@ -38,31 +38,3 @@ if __name__ == '__main__':
     unittest.main(exit = False)
     testInstance = TestLinearSearch()
     testInstance.benchmark_linearSearch()
-
-    
-# def run_linear_search(n):
-#     data = sample(range(1, n+1), n)
-
-#     start_time = time_ns()
-#     linear_search(data, data[-1])
-#     end_time = time_ns()
-
-#     time_taken = end_time-start_time
-#     print(time_taken)
-#     return time_taken
-
-
-
-
-# def plot_linear():
-#     x_values = []
-#     y_values = []
-#     for i in range(10000, 100000, 10000):
-#         x_values.append(i)
-#         y_values.append(run_linear_search(i))
-
-#     plt.plot(x_values, y_values)
-#     plt.title("Linear Search")
-#     plt.xlabel("Number of Data ( n )")
-#     plt.ylabel("Time taken  ( t )")
-#     plt.show()
